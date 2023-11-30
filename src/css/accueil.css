@@ -1,0 +1,50 @@
+@font-face {
+
+    font-family: "Poiret";
+
+    src: url('../font/PoiretOne-Regular.ttf') format('truetype');
+
+}
+
+html{
+
+    overflow-x:hidden;
+
+}
+
+#mainHome{
+    position: relative;
+    min-height: 100vh;
+    width: 100vw; 
+padding-top: 40vh;
+background-color: #87CEEB;
+}
+
+#Soleil{
+position: absolute;
+    height: 20rem;
+    width: 20rem;
+    top: 0%;
+    left: 90%;
+}
+
+#Nuage{
+ position: absolute;
+    height: 40rem;
+    width: 40rem;
+    left: 30%;
+    top: 0%;
+    font-family: "Poiret";
+}
+
+.p2{
+
+    background-color: #4BAC68;
+    width: 100%;
+    height: 100vh;
+    margin-top: -8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

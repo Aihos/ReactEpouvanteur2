@@ -1,0 +1,57 @@
+html{
+
+    
+}
+
+#mainPerso{
+
+    background-color: #FFD36E;
+    position: relative;
+}
+
+.personae{
+
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.personae ul{
+
+    z-index: 3;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    list-style: none;
+}
+
+.personae ul li{
+
+    position: relative;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD36E;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#INterieurSelection{
+
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}

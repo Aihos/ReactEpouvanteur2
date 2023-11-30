@@ -1,0 +1,58 @@
+@font-face {
+
+  font-family: "Poiret One";
+
+  src: url('../font/PoiretOne-Regular.ttf') format('truetype');
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+
+    color: red;
+    font-family: "Poiret One";
+}
+
+nav{
+
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav div{
+
+    width: 100px;
+    height: 100px;
+    background-image: url(../css/img/Vrailogohugo.svg); 
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+
+
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+}
+
+
+/* Path: wiki-epouvanteur/src/css/main.css */
