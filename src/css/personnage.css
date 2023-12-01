@@ -3,10 +3,17 @@ html{
     
 }
 
+h2{
+
+ color: #FFD36E;
+}
+
 #mainPerso{
 
     background-color: #FFD36E;
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .personae{
@@ -23,18 +30,22 @@ html{
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5rem;
+
+    grid-gap:10%;
+    grid-row-gap: 5%;
+    grid-column-gap: 10%;
     margin-top: 5rem;
-    margin-bottom: 5rem;
+   /*  margin-bottom: 5rem;
     margin-left: 5rem;
-    margin-right: 5rem;
+    margin-right: 5rem; */
     list-style: none;
+   justify-items: center;
 }
 
 .personae ul li{
 
     position: relative;
-    z-index: 4;
+   /*  z-index: 4; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,14 +55,448 @@ html{
     border-radius: 5px;
     padding: 1rem;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    cursor: help;
+    width: 50%;
+   
 }
 
 #INterieurSelection{
 
     position: absolute;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     top: 0%;
     left: 0%;
     z-index: 1;
 }
+
+.personae ul li img{
+
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: help;
+}
+
+.personae button{
+
+   padding: 0;
+    margin: 0;
+}
+
+.popup{
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+   
+    z-index: 999;
+}
+
+
+
+  
+  .textepetit2{
+  
+    font-size: 15px;
+    margin-bottom: 2rem;
+  }
+  .choucroute{
+
+    color: #222222;
+  }  
+
+  li h3{
+
+    color: #222222;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+ li .textepetit{
+
+    font-size: 20px;
+    color: #222222;
+  }
+li .choucroute{
+
+    color: #222222;
+}
+/*  */
+
+#popup-overlay1 {
+    z-index: 30;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+
+  #popup1 {
+    z-index: 30;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close1 {
+    margin-top: 10px;
+  }
+
+  #popup-close1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  /* pop2 */
+  #popup-overlay2 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup2 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close2 {
+    margin-top: 10px;
+  }
+
+  #popup-close2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  
+  /* pop3 */
+  #popup-overlay3 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup3 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close3 {
+    margin-top: 10px;
+  }
+
+  #popup-close3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+ /* pop4 */
+ #popup-overlay4 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup4 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close4 {
+    margin-top: 10px;
+  }
+
+  #popup-close4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+   /* pop5 */
+   #popup-overlay5 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup5 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close5 {
+    margin-top: 10px;
+  }
+
+  #popup-close5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+   /* pop6 */
+   #popup-overlay6 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup6 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close6 {
+    margin-top: 10px;
+  }
+
+  #popup-close6:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+
+   /* pop7 */
+   #popup-overlay7 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup7 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close7 {
+    margin-top: 10px;
+  }
+
+  #popup-close7:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+   /* pop8 */
+   #popup-overlay8 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup8 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close8 {
+    margin-top: 10px;
+  }
+
+  #popup-close8:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+   /* pop9 */
+   #popup-overlay9 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup9 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close9 {
+    margin-top: 10px;
+  }
+
+  #popup-close9:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+   /* pop3 */
+   #popup-overlay10 {
+    z-index: 20;
+  
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    backdrop-filter: blur(4px); /* Effet de flou sur le fond */
+  }
+  
+  #popup10 {
+    z-index: 20;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #222222;
+}
+
+#popup-close10 {
+    margin-top: 10px;
+  }
+
+  #popup-close10:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }

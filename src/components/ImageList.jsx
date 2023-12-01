@@ -11,7 +11,7 @@ const ImageList = () => {
   console.log(images); // Ajoutez cette ligne pour vérifier les données dans la console
   return (
     <div>
-      <h2>Liste des utilisateurs</h2>
+    
       <ul>
         {images.map(images => (
           <li key={images.id}>
