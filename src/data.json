@@ -58,8 +58,94 @@
       { "id": 4, "title": "Maison", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/maisonchippenden.svg"},
       { "id": 5, "title": "Plaine", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/soleil.png"},
       { "id": 6, "title": "Nuage", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/Vrainuage.svg"},
-      {"id":7, "title": "Planete", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/Vraiplanete.svg"},
-      {"id":8, "title": "CollineHistoire", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/Vraicollinedeshistoirepanneau.svg"},
+      {
+        "id": 7,
+        "title": "Planete",
+        "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/Vraiplanete.svg",
+        "mapName": "test",
+        "areas": [
+          {
+            "id": "",
+            "alt": "Cartmel",
+            "title": "Cartmel",
+            "href": "#popup-overlay",
+            "shape": "rect",
+            "coords": "580,550,660,640"
+          },
+          {
+            "id": "2",
+            "alt": "Lancaster",
+            "title": "Lancaster",
+            "href": "#popup-overlay1",
+            "shape": "rect",
+            "coords": "695,650,820,730"
+          },
+          {
+            "id": "3",
+            "alt": "Caster",
+            "title": "Caster",
+            "href": "#popup-overlay2",
+            "shape": "rect",
+            "coords": "650,670,690,750"
+          },
+          {
+            "id": "4",
+            "alt": "Chippenden",
+            "title": "Chippenden",
+            "href": "#popup-overlay3",
+            "shape": "rect",
+            "coords": "710,780,820,850"
+          },
+          {
+            "id": "5",
+            "alt": "Blackpool",
+            "title": "Blackpool",
+            "href": "#popup-overlay4",
+            "shape": "rect",
+            "coords": "600,850,700,890"
+          },
+          {
+            "id": "6",
+            "alt": "Tour Malkin",
+            "title": "Tour Malkin",
+            "href": "#popup-overlay5",
+            "shape": "rect",
+            "coords": "880,700,970,850"
+          },
+          {
+            "id": "7",
+            "alt": "Pendle",
+            "title": "Pendle",
+            "href": "#popup-overlay6",
+            "shape": "rect",
+            "coords": "820,850,950,950"
+          },
+          {
+            "id": "8",
+            "alt": "Priestown",
+            "title": "Priestown",
+            "href": "#popup-overlay7",
+            "shape": "rect",
+            "coords": "710,900,820,950"
+          },
+          {
+            "id": "9",
+            "alt": "Anglezarke",
+            "title": "Anglezarke",
+            "href": "#popup-overlay8",
+            "shape": "rect",
+            "coords": "790,980,880,1030"
+          },
+          {
+            "id": "10",
+            "alt": "Adlington",
+            "title": "Adlington",
+            "href": "#popup-overlay9",
+            "shape": "rect",
+            "coords": "700,1010,950,1070"
+          }
+        ]
+      },      {"id":8, "title": "CollineHistoire", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/Vraicollinedeshistoirepanneau.svg"},
       {"id":9, "title": "InterieurMaisonPerso", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/Vraimaisonpersonnageinterieur.svg"},
       {"id":10, "title": "collineLivre1", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/collinelivre1.svg"},
       {"id":11, "title": "INterieurSelection", "src": "https://dev.timmatane.ca/etudiants/2021/lerayh/ImageWardstone/fond/Vraiinterieurpersosselection.svg"}

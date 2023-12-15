@@ -12,6 +12,7 @@ import Data from "../data.json";
 import ImageSelector from "../components/ImageSelector";
 import ImageFond from "../components/ImageFond";
 import logo from "../css/img/Accueil/logohugo.png";
+import { ParallaxBanner } from 'react-scroll-parallax';
 
 
 function Home() {

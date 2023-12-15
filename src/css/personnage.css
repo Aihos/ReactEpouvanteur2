@@ -63,11 +63,13 @@ h2{
 #INterieurSelection{
 
     position: absolute;
-    height: 200vh;
+    height: 350vh;
     width: 100vw;
     top: 0%;
     left: 0%;
     z-index: 1;
+    background-color: #FFD36E;
+
 }
 
 .personae ul li img{
