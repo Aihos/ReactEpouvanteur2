@@ -8,7 +8,9 @@ import VilleList from "../components/VilleList";
 import ImageSelector from "../components/ImageSelector";
 import InteractiveMap from "../components/InteractiveMap";
 import "../css/univers.css";
-
+import { Parallax, ParallaxLayer  } from "@react-spring/parallax";
+import { useSpring, animated } from '@react-spring/web';
+import { ParallaxProvider } from "react-scroll-parallax";
 function Univers() {
   const ville = Data.ville;
   const images = Data.images;
@@ -29,15 +31,18 @@ function Univers() {
 
   return (
     <>
+    <Parallax pages={4} style={{ top: '0', left: '0' }} className="animation">
       <div className="flex">
         <Navbar />
         <main id="mainUnivers" className="m-0 w-[100%] p-4 flex flex-col">
+        <ParallaxLayer offset={0} speed={0.2}  style={{  height: '20rem', top:'10%' }}> 
           <h1 className="my-8">Univers</h1>
+          </ParallaxLayer>
 {/*           <ImageSelector id={7} openPopup={handleAreaClick} />
  */}
-
+          <ParallaxLayer offset={0} speed={0.2}  style={{  height: '20rem', top:'10%' }}> 
           <InteractiveMap openPopup={handleAreaClick} />
-
+          </ParallaxLayer>
           
           <div className="partie2">
             <h2>Infos Pratique</h2>
@@ -56,6 +61,7 @@ function Univers() {
           </div>
         </main>
       </div>
+      </Parallax>
       {selectedItem && (
         <div className="popup">
           <div className="popup-content">
