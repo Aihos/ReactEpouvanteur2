@@ -24,7 +24,8 @@ h2{
 
 
 
-.personae ul{
+
+.personae div ul{
 
     z-index: 3;
     position: relative;
@@ -59,6 +60,8 @@ h2{
     width: 50%;
    
 }
+
+
 
 #INterieurSelection{
 

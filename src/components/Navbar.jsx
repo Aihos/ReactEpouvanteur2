@@ -9,10 +9,10 @@ function Navbar() {
            <NavLink to="/"><div/></NavLink>
             <ul>
                
-                <li><NavLink to="/Univers">Univers</NavLink></li>
-                <li><NavLink to="/Personnage">Personnages</NavLink></li>
-                <li><NavLink to="/Auteur">Auteur</NavLink></li>
-                <li><NavLink to="/Histoire">Histoire</NavLink></li>
+                <NavLink to="/Univers"><li>Univers</li></NavLink>
+                <NavLink to="/Personnage"><li>Personnages</li></NavLink>
+                <NavLink to="/Auteur"><li>Auteur</li></NavLink>
+                <NavLink to="/Histoire"><li>Histoire</li></NavLink>
             </ul>
         </nav> 
 

@@ -32,7 +32,12 @@ const logoHugo = logo;
                 <ImageSelector id={1} />
                   <ImageSelector id={6} />
                 <ImageFond imageId={4} />
+                <div class="panneauNav">
                 <ImageFond imageId={3} />
+                 <Navbar   />
+
+                </div>
+               
                 <div class="p2">
 <h2>Explication</h2>
 <p>Etant un grand fan de la série "L'épouvanteur" écrit par Joseph Delaney, 
