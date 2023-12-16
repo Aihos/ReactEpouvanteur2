@@ -5,7 +5,10 @@
   src: url('../font/PoiretOne-Regular.ttf') format('truetype');
 
 }
+#root .animation div:nth-child(1) {
 
+    overflow: visible !important;; 
+}
 
 *{
     margin: 0;
@@ -32,7 +35,7 @@ nav div{
 
     width: 100px;
     height: 100px;
-    background-image: url(../css/img/Vrailogohugo.svg); 
+   /*  background-image: url(../css/img/Vrailogohugo.svg);  */
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
@@ -53,6 +56,82 @@ footer{
     color: #fff;
     padding: 1rem;
 }
+/*  */
+.menuBurgerList {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #00B3FF;
+    z-index: 1000;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    overflow: hidden;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.menuBurgerList ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+    margin-top: 4rem;
+}
+
+.menuBurgerList ul a {
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #64d1ff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.menuBurgerList ul li {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    transition: 0.5s;
+    padding-left: 1rem;
+}
+
+.menuBurgerList svg {
+    width: 2rem;
+    height: 2rem;
+    transform: translateX(0%);
+    transition: 0.5s;
+    padding-right: 1rem;
+}
+
+.menuBurgerList svg g {
+    fill: white;
+}
+
+.menuBurgerList a:hover svg {
+    transform: translateX(10%);
+    transition: 0.5s;
+}
+
+.menuBurgerList img {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.menuBurgerListClick {
+    transform: translateX(0%);
+}
 
 
-/* Path: wiki-epouvanteur/src/css/main.css */

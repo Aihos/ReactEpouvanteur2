@@ -1,42 +1,42 @@
-import { Link ,NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "../css/main.css";
-import React from "react";
-import { FaBars, FaTimes } from "react-icons/fa"
-    /* import "https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"; */
-function Navbar() {
-    return (
-        <nav>
-           <NavLink to="/"><div/></NavLink>
-            <ul>
-               
-                <NavLink to="/Univers"><li>Univers</li></NavLink>
-                <NavLink to="/Personnage"><li>Personnages</li></NavLink>
-                <NavLink to="/Auteur"><li>Auteur</li></NavLink>
-                <NavLink to="/Histoire"><li>Histoire</li></NavLink>
-            </ul>
-        </nav> 
 
-      /*   <nav id="navigation">
-    <div className="nav-content">
-      <div className="toggle-btn">
-        <i className='bx bx-plus'></i>
+
+function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleToggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  return (
+    <nav id="navabarMenu" class="nav-mobile">
+      <div className={`menu-icon ${menuOpen ? "open" : ""}`} onClick={handleToggleMenu}>
+        {menuOpen ? <FaTimes /> : <FaBars />}
       </div>
-      <span>
-        <a href="./index.html"><i className='bx bxs-home'></i></a>
-      </span>
-      <span>
-        <a href="./univers.html"><i className='bx bxs-map'></i></a>
-      </span>
-      <span>
-        <a href="./histoire.html"><i className='bx bxs-book' ></i></a>
-      </span>
-      <span>
-        <a href="./personnages.html"><i classNames='bx bxs-face' ></i></a>
-      </span>
-  
-    </div>
-  </nav> */
-    );
+
+      
+      <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
+      <NavLink to="/" onClick={handleToggleMenu}>
+          <li>Accueil</li>
+        </NavLink>
+        <NavLink to="/Univers" onClick={handleToggleMenu}>
+          <li>Univers</li>
+        </NavLink>
+        <NavLink to="/Personnage" onClick={handleToggleMenu}>
+          <li>Personnages</li>
+        </NavLink>
+        <NavLink to="/Auteur" onClick={handleToggleMenu}>
+          <li>Auteur</li>
+        </NavLink>
+        <NavLink to="/Histoire" onClick={handleToggleMenu}>
+          <li>Histoire</li>
+        </NavLink>
+      </ul>
+    </nav>
+  );
 }
 
 export default Navbar;
