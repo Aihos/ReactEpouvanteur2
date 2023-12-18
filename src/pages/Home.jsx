@@ -20,7 +20,7 @@ function Home() {
  
   return (
     <>
-      <Parallax pages={4} style={{ top: '0', left: '0' }} className="animation">
+      <Parallax pages={3} style={{ top: '0', left: '0' }} className="animation">
         <div className="flex">
           <Navbar />
           <main id="mainHome" className="m-0 w-[100%] p-4 flex flex-col ">

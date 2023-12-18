@@ -55,10 +55,10 @@ const InteractiveMap = ({ openPopup }) => {
               activePopup === `popup-overlay${area.id}` ? "block" : "none",
           }}
         >
-          <div className="popupTextHistoire" id={`popup${area.id}`}>
+          <div class="popupTextHistoire" id={`popup${area.id}`}>
             <h3>{area.title}</h3>
-            <p className="textepetit">{area.desc}</p>
-            <button className="choucroute" onClick={closePopup}>
+            <p class="textepetit">{area.desc}</p>
+            <button class="choucroute" onClick={closePopup}>
               Fermer
             </button> 
           </div>

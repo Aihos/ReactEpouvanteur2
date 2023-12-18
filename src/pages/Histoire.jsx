@@ -19,7 +19,7 @@ function Histoire() {
                 <Navbar />
                 <main id="mainHistoire" className="m-0 w-[100%] p-4 flex flex-col">
                 <ImageFond imageId={8} />
-                <ImageSelector id={10} />
+              
                         <LivreList  openPopup={openPopup} />
                 </main>
 

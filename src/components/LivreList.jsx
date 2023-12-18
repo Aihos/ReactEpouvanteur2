@@ -18,11 +18,11 @@ const LivreList = () => {
   const livre = Data.livre;
 
   return (
-    <div className="">
-      <h2>Liste des utilisateurs</h2>
+    <div className="" id="listeLivre">
+   
       <ul>
         {livre.map((livre) => (
-          <li key={livre.id}>
+         <li key={livre.id} style={{ backgroundImage: `url(${livre.FondLivre})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
             <button id={`popup-trigger${livre.id}`} onClick={() => openPopup(`popup-overlay${livre.id}`)}>
               <img src={livre.imgLivre} alt={livre.desc} id={livre.name} />
             </button>
