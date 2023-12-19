@@ -97,7 +97,7 @@
             "title": "Chippenden",
             "href": "#popup-overlay3",
             "shape": "rect",
-            "coords": "710,780,820,850",
+            "coords": "810,900,950,980",
             "desc": "Est un petit village situé dans le centre du Comté, On y retrouve la résidence principale de John Grégory et est l'un des lieux les plus important de la série Son inspiration vient de Chipping un vrai village ."
           },
           {
@@ -106,7 +106,7 @@
             "title": "Blackpool",
             "href": "#popup-overlay4",
             "shape": "rect",
-            "coords": "600,850,700,890",
+            "coords": "680,920,800,1000",
             "name": "Blackpool",
             "desc": "Destination touristique populaire, Blackpool est réputée pour sa jetée emblématique, ses manèges de foire et sa vie nocturne animée. C'est le lieu idéal pour des vacances en famille ou une escapade entre amis."
           },
@@ -116,7 +116,7 @@
             "title": "Tour Malkin",
             "href": "#popup-overlay5",
             "shape": "rect",
-            "coords": "880,700,970,850",
+            "coords": "980,900,1150,950",
             "desc": "La tour Malkin se trouve proche de Pendle Situé dans le territoire des Malkins la tour est une forteresse imprenable Préparez vous bien si vous souhaitez visiter la vraie Tour Malkin" 
           },
           {
@@ -125,7 +125,7 @@
             "title": "Pendle",
             "href": "#popup-overlay6",
             "shape": "rect",
-            "coords": "820,850,950,950",
+            "coords": "940,950,1050,1025", 
             "desc": "Village craint par tous les habitants du comté par ça proximité avec l'obscur. Pendle est le lieu de prédilection des sorcières Si vous voulez y aller gare aux miroirs"
           },
           {
@@ -134,7 +134,7 @@
             "title": "Priestown",
             "href": "#popup-overlay7",
             "shape": "rect",
-            "coords": "710,900,820,950",
+            "coords": "780,1020,925,1100",
             "desc": "Ville prospère possédant une magnifique cathédrale entourée d'une muraille. Priestown est une ville où il ne faut pas rester la nuit on dit qu'une créature de l'ombre y rode"
           },
           {
@@ -143,7 +143,7 @@
             "title": "Anglezarke",
             "href": "#popup-overlay8",
             "shape": "rect",
-            "coords": "790,980,880,1030",
+            "coords": "900,1070,1050,1130",
             "desc": "Nichée au cœur de la nature sauvage, Anglezarke est une ville entourée de collines verdoyantes et de forêts mystérieuses. C'est le refuge parfait pour les amoureux de la nature et les chercheurs d'aventures."
           },
           {
@@ -152,7 +152,7 @@
             "title": "Adlington",
             "href": "#popup-overlay9",
             "shape": "rect",
-            "coords": "700,1010,950,1070",
+            "coords": "790,1150,920,1200",
             "desc": "Adlington est une petite bourgade agricole, où les champs verdoyants s'étendent à perte de vue. La communauté étroite et chaleureuse d'Adlington valorise les traditions rurales."
           }
         ]

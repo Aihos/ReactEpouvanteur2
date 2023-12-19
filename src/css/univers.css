@@ -140,7 +140,7 @@ margin-top: 2rem;
     width: 100%;
   }
 
-  .popupTextHistoire h3, p, button{
+  .popupTextHistoire h3, .popupTextHistoire p, button{
 
     color: #222222;
   }

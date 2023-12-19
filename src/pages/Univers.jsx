@@ -67,7 +67,7 @@ function Univers() {
       </div>
       {/*   </Parallax> */}
       {selectedItem && (
-        <div className="popup">
+        <div className="">
           <div className="popup-content">
             <span className="close" onClick={closePopup}>
               &times;

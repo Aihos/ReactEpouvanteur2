@@ -44,11 +44,13 @@ function Home() {
               <div className="p2">
                 <h2>Explication</h2>
                 <p>
-                  Etant un grand fan de la série "L'épouvanteur" écrit par Joseph
-                  Delaney, j'ai décidé de créer un site pour montrer ma vision de
-                  cet univers et peut être donner l'envie à d'autre de lire cette
-                  série de 17 tomes + 2 Hors-Séries. De plus, je souhaitais rendre
-                  hommage à celui qui est mon auteur préféré.
+                Étant un grand fan de la série
+                 'L'Épouvanteur' écrite par Joseph Delaney,
+                  j'ai décidé de créer un site pour partager 
+                  ma vision de cet univers et peut-être donner 
+                  l'envie à d'autres de lire cette série de 17
+                   tomes, plus 2 hors-séries. De plus, je souhaitais
+                    rendre hommage à mon auteur préféré.
                 </p>
                 <h2>Voir d'autres créations</h2>
                 <a href="https://hugo-leray-portfolio.netlify.app/">
