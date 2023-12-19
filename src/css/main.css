@@ -21,7 +21,7 @@ h1{
     font-family: "Poiret One";
 }
 
-nav{
+/* nav{
 
     background-color: #000;
     color: #fff;
@@ -35,13 +35,13 @@ nav div{
 
     width: 100px;
     height: 100px;
-   /*  background-image: url(../css/img/Vrailogohugo.svg);  */
+  
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
 
 
-}
+} */
 a{
     color: #fff;
     text-decoration: none;

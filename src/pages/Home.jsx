@@ -10,6 +10,7 @@ import PanneauNavbar from "../components/PanneauNavbar";
 import { Parallax, ParallaxLayer  } from "@react-spring/parallax";
 import { useSpring, animated } from '@react-spring/web';
 import { ParallaxProvider } from "react-scroll-parallax";
+import TestNavabarsympa from "../components/TestNavabarsympa";
 
 function Home() {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -22,7 +23,7 @@ function Home() {
     <>
       <Parallax pages={3} style={{ top: '0', left: '0' }} className="animation">
         <div className="flex">
-          <Navbar />
+          <TestNavabarsympa />
           <main id="mainHome" className="m-0 w-[100%] p-4 flex flex-col ">
             <ParallaxLayer offset={0} speed={0.2}  style={{  height: '20rem',  }}>
               <ImageSelector id={1} openPopup={openPopup} />
