@@ -22,7 +22,7 @@ html{
 
 #listeLivre li{
 
-  height: 170vh;
+  height: 70vh;
   width: 100%;
   display: flex;
  
@@ -399,4 +399,15 @@ html{
   #popup-close20:hover {
     cursor: pointer;
     text-decoration: underline;
+  }
+
+  @media screen and (max-width: 900px) {
+    .animation {
+      display: none;
+    }
+    header{
+
+        display: none!important;
+
+    }
   }

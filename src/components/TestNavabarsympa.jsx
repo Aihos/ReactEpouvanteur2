@@ -64,7 +64,9 @@ function TestNavabarsympa() {
   }, [menuOpen]);
 
   return (
-    <nav className={menuOpen ? "open" : ""}>
+    <header>
+
+<nav className={menuOpen ? "open" : ""}>
       <div className="nav-content">
         <div className="toggle-btn">
           <i className={menuOpen ? 'bx bx-minus' : 'bx bx-plus'}></i>
@@ -91,6 +93,8 @@ function TestNavabarsympa() {
         </NavLink>
       </div>
     </nav>
+    </header>
+   
   );
 }
 

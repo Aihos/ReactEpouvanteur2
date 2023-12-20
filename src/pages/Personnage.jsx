@@ -6,7 +6,7 @@ import "../css/personnage.css";
 import PersonnageList from "../components/PersonnageList";
 import ImageSelector from "../components/ImageSelector";
 import ImageFond from "../components/ImageFond";
-
+import TestNavabarsympa from "../components/TestNavabarsympa";
 function Personnage() {
     const [selectedItem, setSelectedItem] = useState(null);
 
@@ -14,10 +14,10 @@ function Personnage() {
       setSelectedItem(item);
     };
     return (
-        <>
+        <> <TestNavabarsympa />
                   {/* <Navbar /> */}
             <div className="flex">
-                <Navbar />
+             
                 <main id="mainPerso" className="m-0 w-[100%] p-4 flex flex-col">
                 <ImageFond imageId={9} />
                 <div class="personae">
@@ -44,7 +44,7 @@ function Personnage() {
           </div>
         </div>
       )}
- <Footer />
+
            
         </>
     );

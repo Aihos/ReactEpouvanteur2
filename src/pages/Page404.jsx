@@ -1,6 +1,6 @@
 
 import {useNavigate} from "react-router"
-
+import TestNavabarsympa from "../components/TestNavabarsympa";
 function Page404() {
    
     return (

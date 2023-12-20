@@ -20,10 +20,10 @@ function Home() {
   };
  
   return (
-    <>
+    <>  <TestNavabarsympa />
       <Parallax pages={3} style={{ top: '0', left: '0' }} className="animation">
         <div className="flex">
-          <TestNavabarsympa />
+        
           <main id="mainHome" className="m-0 w-[100%] p-4 flex flex-col ">
             <ParallaxLayer offset={0} speed={0.2}  style={{  height: '20rem',  }}>
               <ImageSelector id={1} openPopup={openPopup} />
@@ -77,7 +77,7 @@ function Home() {
           </div>
         </div>
       )}
-      <Footer />
+    
     </>
   );
 }

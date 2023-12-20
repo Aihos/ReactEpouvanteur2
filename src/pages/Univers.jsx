@@ -12,6 +12,7 @@ import "../css/univers.css";
 import { Parallax, ParallaxLayer  } from "@react-spring/parallax";
 import { useSpring, animated } from '@react-spring/web';
 import { ParallaxProvider } from "react-scroll-parallax";
+import TestNavabarsympa from "../components/TestNavabarsympa";
 function Univers() {
   const ville = Data.ville;
   const images = Data.images;
@@ -31,10 +32,10 @@ function Univers() {
   };
 
   return (
-    <>
+    <> <TestNavabarsympa />
   {/*   <Parallax pages={3} style={{ top: '0', left: '0' }} className="animation"> */}
       <div className="flex">
-        <Navbar />
+   
         <main id="mainUnivers" className="m-0 w-[100%] p-4 flex flex-col">
       {/*   <ParallaxLayer offset={0} speed={0.2}  style={{  height: '20rem', top:'10%' }}>  */}
         <EtoileFilante />
@@ -68,8 +69,8 @@ function Univers() {
       {/*   </Parallax> */}
       {selectedItem && (
         <div className="">
-          <div className="popup-content">
-            <span className="close" onClick={closePopup}>
+          {/* <div className="">
+            <span className="" onClick={closePopup}>
               &times;
             </span>
             {selectedItem && (
@@ -78,10 +79,10 @@ function Univers() {
                 <p>{selectedItem.desc}</p>
               </>
             )}
-          </div>
+          </div> */}
         </div>
       )}
-      <Footer />
+     
     </>
   );
 }

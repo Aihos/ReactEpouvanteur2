@@ -23,7 +23,7 @@ const InteractiveMap = ({ openPopup }) => {
   const ville = Data.ville;
 
   return (
-    <div>
+    <div id="ContImg">
       <img
         src={imageWithAreas.src}
         id={imageWithAreas.title}

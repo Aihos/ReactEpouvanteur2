@@ -1,7 +1,20 @@
 
+header{
+
+  
+    z-index: 10000;
+ 
+  display: flex;
+    width: 100%;
+    position: fixed;
+    
+  
+ 
+  
+}
 nav{
     z-index: 11;
-    position: absolute;
+    position: fixed;
     top: 20px;
     left: 0;
     width: 80px;
@@ -13,9 +26,10 @@ nav{
   }
   nav .nav-content{
     display: flex;
-    align-items: center;
-    justify-content: center;
+   /*  align-items: center; */
+   /*  justify-content: center; */
     transform: rotate(-240deg);
+   flex-direction: row-reverse;
   }
   .nav-content .toggle-btn,
   .nav-content span a{
@@ -26,7 +40,7 @@ nav{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-   /*  box-shadow: 0 0 20px rgba(0,0,0,0.2); */
+   
   }
   .nav-content .toggle-btn{
     font-size: 35px;
@@ -46,8 +60,9 @@ nav{
   }
   
   nav.open .nav-content span {
-    transform: rotate(calc(var(--i, 0) * (360deg / 6))) translateY(110px);
+    transform: rotate(calc(var(--i) * (360deg / 6))) translateY(110px);
     opacity: 1;
+
   }
   
     .nav-content span a {

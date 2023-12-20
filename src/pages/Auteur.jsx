@@ -2,12 +2,12 @@ import React from "react";
 
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"; 
-
+import TestNavabarsympa from "../components/TestNavabarsympa";
 
 function Auteur() {
 
     return (
-        <>
+        <> <TestNavabarsympa />
                   {/* <Navbar /> */}
             <div className="flex">
                 <Navbar />
@@ -18,7 +18,7 @@ function Auteur() {
 
             </div>
 
- <Footer />
+
            
         </>
     )

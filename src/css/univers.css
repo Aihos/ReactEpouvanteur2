@@ -6,6 +6,19 @@ html{
 #mainUnivers{
     padding-top: 40vh;
     background-color: #0D1D45;
+    overflow-x: hidden;
+}
+
+#Planete{
+position: relative;
+  width: 1652px;
+  height: 1807px;
+}
+#ContImg{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
@@ -471,3 +484,4 @@ margin-top: 2rem;
       transform: rotate(405deg);
     }
   }
+

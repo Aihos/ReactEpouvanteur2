@@ -11,8 +11,10 @@ function PanneauNavbar() {
                
                 <NavLink to="/Univers"><li>Univers</li></NavLink>
                 <NavLink to="/Personnage"><li>Personnages</li></NavLink>
-                <NavLink to="/Auteur"><li>Auteur</li></NavLink>
+               
+                {/*  <NavLink to="/Auteur"><li>Auteur</li></NavLink> */}
                 <NavLink to="/Histoire"><li>Histoire</li></NavLink>
+                <NavLink to="/"><li></li></NavLink> 
             </ul>
         </nav> 
 

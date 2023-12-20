@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
  import Data from "../data.json";
  import ImageSelector from "../components/ImageSelector";
  import ImageFond from "../components/ImageFond";
+ import TestNavabarsympa from "../components/TestNavabarsympa";
 function Histoire() {
     const [selectedItem, setSelectedItem] = useState(null);
 
@@ -13,10 +14,10 @@ function Histoire() {
       setSelectedItem(item);
     };
     return (
-        <>
+        <> <TestNavabarsympa />
                   {/* <Navbar /> */}
             <div className="flex">
-                <Navbar />
+              
                 <main id="mainHistoire" className="m-0 w-[100%] p-4 flex flex-col">
                 <ImageFond imageId={8} />
               
@@ -40,7 +41,7 @@ function Histoire() {
           </div>
         </div>
       )}
- <Footer />
+
            
         </>
     );
